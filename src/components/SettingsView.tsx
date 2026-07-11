@@ -4,13 +4,11 @@ import type { Card } from '../types';
 
 export function SettingsView({
   cards,
-  password,
   onLock,
   onWipe,
   onUpdatePIN,
 }: {
   cards: Card[];
-  password: string;
   onLock: () => void;
   onWipe: () => void;
   onUpdatePIN: (newPIN: string) => void;

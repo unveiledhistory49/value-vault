@@ -237,7 +237,6 @@ export default function App() {
         {view === 'settings' && (
           <SettingsView
             cards={cards}
-            password={password}
             onLock={handleLock}
             onWipe={handleWipe}
             onUpdatePIN={(newPIN) => setPassword(newPIN)}
